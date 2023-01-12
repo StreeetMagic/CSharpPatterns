@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodMetanit", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstactFactoryMetanit", "AbstactFactoryMetanit\AbstactFactoryMetanit.csproj", "{792CE35A-3898-412D-961B-DC0ABE8FE7AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeMetanit", "PrototypeMetanit\PrototypeMetanit.csproj", "{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{792CE35A-3898-412D-961B-DC0ABE8FE7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{792CE35A-3898-412D-961B-DC0ABE8FE7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{792CE35A-3898-412D-961B-DC0ABE8FE7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
