@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderMetanit", "BuilderMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverMetanit", "ObserverMetanit\ObserverMetanit.csproj", "{B0D7FCC4-0EC7-44C8-80A2-4D6CF755D8F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandMetanit", "CommandMetanit\CommandMetanit.csproj", "{F93A9933-7C03-4E51-A1A7-05CB9893EB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDofactory", "BuilderDofactory\BuilderDofactory.csproj", "{F04DDAB3-8BB5-4A59-927D-30CA72877423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{B0D7FCC4-0EC7-44C8-80A2-4D6CF755D8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D7FCC4-0EC7-44C8-80A2-4D6CF755D8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D7FCC4-0EC7-44C8-80A2-4D6CF755D8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93A9933-7C03-4E51-A1A7-05CB9893EB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93A9933-7C03-4E51-A1A7-05CB9893EB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93A9933-7C03-4E51-A1A7-05CB9893EB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93A9933-7C03-4E51-A1A7-05CB9893EB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04DDAB3-8BB5-4A59-927D-30CA72877423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04DDAB3-8BB5-4A59-927D-30CA72877423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04DDAB3-8BB5-4A59-927D-30CA72877423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04DDAB3-8BB5-4A59-927D-30CA72877423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
