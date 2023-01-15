@@ -4,11 +4,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{40C342DE-FE5E-4F85-BB07-1CA0B5E3B71F}</ProjectGuid>
+        <ProjectGuid>{E0E1159D-F814-4E32-A812-3A63CD4F1057}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>PrototypeMetanit</RootNamespace>
-        <AssemblyName>PrototypeMetanit</AssemblyName>
+        <RootNamespace>ChainOfResponsibilityMetanit</RootNamespace>
+        <AssemblyName>ChainOfResponsibilityMetanit</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -39,11 +39,13 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Circle.cs" />
-        <Compile Include="IFigure.cs" />
+        <Compile Include="BankPaymentHandler.cs" />
+        <Compile Include="MoneyPaymentHandler.cs" />
+        <Compile Include="PaymentHandler.cs" />
+        <Compile Include="PayPalPaymentHandler.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="Rectangle.cs" />
+        <Compile Include="Receiver.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
