@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoMetanit", "MementoMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorMetanit", "DecoratorMetanit\DecoratorMetanit.csproj", "{055A0E00-9BC6-48D4-A0E8-222A8FA096A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StategyMetanit", "StategyMetanit\StategyMetanit.csproj", "{E75328C4-7747-4052-9B48-4D1910BEDAC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyMetanit", "StrategyMetanit\StrategyMetanit.csproj", "{E75328C4-7747-4052-9B48-4D1910BEDAC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodMetanit", "FactoryMethodMetanit\FactoryMethodMetanit.csproj", "{B1DED3D7-92B7-413D-B712-F656A486D2B6}"
 EndProject

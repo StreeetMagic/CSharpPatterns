@@ -7,7 +7,7 @@ namespace T04
         private readonly Hero _hero;
         
         private readonly ICast _castStrategy;
-        private readonly ICost _icostItem;
+        private ICost _icostItem;
         
         private readonly int _cost;
 
@@ -38,6 +38,11 @@ namespace T04
         public void RemoveRecoucre(Hero hero, int cost)
         {
             _icostItem.RemoveRecoucre(hero, cost);
+        }
+
+        public void ChangeCostType(ICost icost)
+        {
+            _icostItem = icost;
         }
     }
 }

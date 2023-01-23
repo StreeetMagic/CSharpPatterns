@@ -9,7 +9,9 @@
 
             lina.Cast();
             lina.SwitchSpell();
-
+            lina.Cast();
+            
+            lina.CurrentSpell.ChangeCostType(new ManaCost());
             lina.Cast();
         }
     }

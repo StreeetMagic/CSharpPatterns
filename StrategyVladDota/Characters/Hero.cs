@@ -6,7 +6,6 @@ namespace T04
     {
         private readonly Spell _spell1;
         private readonly Spell _spell2;
-        private Spell _currentSpell;
         private int _health;
         private int _mana;
 
@@ -16,9 +15,11 @@ namespace T04
             _mana = 500;
             _spell1 = new DragonSlave(new Area(), "Dragon Slave", 50, new ManaCost(), this);
             _spell2 = new LagunaBlade(new SingleTarget(), "Laguna Blade", 150, new HealthCost(), this);
-            _currentSpell = _spell1;
-            Console.WriteLine("Готова запуска  " +  _currentSpell.Name);
+            CurrentSpell = _spell1;
+            Console.WriteLine("Готова запуска  " +  CurrentSpell.Name);
         }
+
+        public Spell CurrentSpell { get; private set; }
 
         public void ChangeHealth(int health)
         {
@@ -38,20 +39,20 @@ namespace T04
         
         public void Cast()
         {
-            _currentSpell.Cast();
+            CurrentSpell.Cast();
         }
 
         public void SwitchSpell()
         {
-            if (_currentSpell == _spell1)
+            if (CurrentSpell == _spell1)
             {
-                _currentSpell = _spell2;
-                Console.WriteLine("Помяняла на  " +  _currentSpell.Name);
+                CurrentSpell = _spell2;
+                Console.WriteLine("Помяняла на  " +  CurrentSpell.Name);
             }
             else
             {
-                _currentSpell = _spell1;
-                Console.WriteLine("Помяняла на  " +  _currentSpell.Name);
+                CurrentSpell = _spell1;
+                Console.WriteLine("Помяняла на  " +  CurrentSpell.Name);
             }
         }
     }
