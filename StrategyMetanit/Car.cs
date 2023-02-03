@@ -1,6 +1,6 @@
 ﻿namespace StategyMetanit
 {
-    internal class Car
+    internal class Car : IMovable
     {
         private int _passengers; 
         private string _model; 
