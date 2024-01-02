@@ -5,9 +5,7 @@ namespace Builder
     internal class Bread
     {
         public Flour Flour { get; set; }
-
         public Salt Salt { get; set; }
-
         public Additives Additives { get; set; }
 
         public override string ToString()

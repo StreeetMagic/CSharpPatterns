@@ -4,7 +4,7 @@
     {
         private ILanguage _language;
 
-        public Programmer (ILanguage lang)
+        public Programmer(ILanguage lang)
         {
             _language = lang;
         }
@@ -19,6 +19,7 @@
             _language.Build();
             _language.Execute();
         }
+
         public abstract void EarnMoney();
     }
 }
